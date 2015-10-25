@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+    font-family: "Microsoft YaHei";
+}
+
+input[type='button'] ,button{
+    background-color: #2db400;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+}
+.nav-top {
+    color: #2db400;
+    border: 1px solid #dddddd;
+    background-color: #eeeeee;
+    height: 40px;
+    width: auto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.nav-top li {
+    float: right;
+    display: inline;
+    padding-right: 20px;
+}
+
+.nav-top a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #2db400;
+}
+
+.search {
+    height: 110px;
+    width: auto;
+    text-align: center;
+}
+
+.search span {
+    width: 480px;
+    height: 45px;
+    margin-top: 50px;
+    border: 3px solid #2db400;
+    display: inline-block;
+}
+
+.search input[type='text'] {
+    border: none;
+    outline: none;
+    font-size: 24px;
+    margin: 8px;
+    width: 450px;
+    font-family: "Microsoft YaHei";
+}
+
+.search input[type='button'] {
+    font-size: 22px;
+    height: 51px;
+    width: 90px;
+    padding-top: 7px;
+}
+
+.key-word {
+    height: 70px;
+}
+
+.key-word input[type='button']:first-child{
+    margin-left: 345px;
+}
+
+.key-word input[type='button'] {
+    height: 25px;
+    width: auto;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.main-content {
+    height: auto;
+}
+
+.list {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #eeeeee;
+}
+
+.list li {
+    display: block;
+    padding-top: 10px;
+}
+
+.list a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.list button {
+    width: 40px;
+    height: 100px;
+    display: none;
+}
+
+.sub-content {
+    width: 80%;
+    border: 1px solid #2db400;
+    margin: auto;
+}
+
+.sub-content b {
+    text-align: center;
+    margin: 20px;
+    display: block;
+    font-size: 20px;
+}
+
+.sub-content span {
+    line-height: 35px;
+}
